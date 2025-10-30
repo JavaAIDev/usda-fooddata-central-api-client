@@ -9,6 +9,7 @@
   <packaging>jar</packaging>
   <version>1.0.0</version>
   <name>USDA FoodData Central API Client</name>
+  <description>USDA FoodData Central API Client, Generated from OpenAPI spec</description>
 
   <url>https://github.com/JavaAIDev/usda-food-data-central-api-client</url>
   <licenses>
