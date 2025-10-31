@@ -763,18 +763,20 @@ components:
 
     AbridgedFoodNutrient:
       required:
-        - id
+        - nutrientId
         - nutrientNumber
-        - unit
+        - unitName
       properties:
-        number:
+        nutrientId:
           type: integer
           format: uint
           example: 303
-        name:
+        nutrientNumber:
+          type: string
+        nutrientName:
           type: string
           example: "Iron, Fe"
-        amount:
+        value:
           type: number
           format: float
           example: 0.53
