@@ -7,7 +7,7 @@
   <groupId>com.javaaidev</groupId>
   <artifactId>usda-food-data-central-api-client</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <name>USDA FoodData Central API Client</name>
   <description>USDA FoodData Central API Client, Generated from OpenAPI spec</description>
 
@@ -136,7 +136,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <inputSpec>${project.basedir}/src/main/resources/fdc_api.json</inputSpec>
+              <inputSpec>${project.basedir}/src/main/resources/fdc_api.yaml</inputSpec>
               <generatorName>java</generatorName>
               <globalProperties>
                 <modelDocs>false</modelDocs>
